@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(67, 196, 74);
+    
+}
+
+.heading a{
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+
+.heading p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.nav-items{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.nav-items li{
+    padding: 0 10px;
+}
+
+.nav-items li a{
+    color: #f1f1f1;
+    
+}
+
+.order-btn{
+    margin: auto 0;
+    padding: 5px;
+    color: rgb(67, 196, 74);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+
+/* banner */
+.banner{
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+   
+}
+.branding{
+    margin-top: 30px;
+    border: 5px solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+.banner .branding p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.banner .branding h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.title{
+    margin-top: 30px;
+}
+.title h1{
+    font-size: 80px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: rgb(67, 196, 74);
+    font-weight: 800;
+}
+
+.title p{
+    font-size: 30px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+
+.btn,.order-now-btn{
+    margin: 30px 0;
+    padding: 10px;
+    background-color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: #f1f1f1;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.order-now-btn:hover{
+    margin: 30px 0;
+    padding: 10px;
+    color: rgb(67, 196, 74);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.divider{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(67, 196, 74);
+}
+
+/* about */
+.about{
+    padding: 20px;
+    
+}
+.about .title{
+    text-align: center;
+    
+}
+.about .title h2, h4{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding:10px;
+}
+.about .title  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    color: rgb(77, 75, 75);
+    padding:  20px;
+    border-bottom: 5px solid;
+}
+
+.about .decription{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .decription .img{
+    padding: 20px;
+}
+
+.about .decription .desc{
+    padding: 20px;
+    line-height: 30px;
+    color:rgb(77, 75, 75);
+}
+
+/* about */
+.menu{
+    padding: 20px;
+    background-color:rgb(67, 196, 74);
+}
+.menu .title{
+    text-align: center;
+    
+}
+.menu .title h2, h4{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding:10px;
+}
+.menu .title  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    color: rgb(77, 75, 75);
+    padding:  20px;
+    border-bottom: 5px solid;
+}
+
+.menu-list li img{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.menu-list li p{
+   font-size: 25px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+
+.menu-list li {
+    text-align: center;
+    margin: 10px 0;
+    float: center;
+    
+}
+
+footer{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* contact */
+.contact{
+    padding: 20px;
+    background-color:rgb(67, 196, 74);
+}
+.contact .title{
+    text-align: center;
+    
+}
+.contact .title h2{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding:10px;
+}
